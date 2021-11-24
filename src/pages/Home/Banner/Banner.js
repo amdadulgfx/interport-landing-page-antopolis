@@ -9,7 +9,7 @@ const Banner = () => {
                 <div className='banner d-flex align-items-center' >
                     <div className='text-white ps-5'>
                         <p>Professional Qualification Course</p>
-                        <h3 className='fs-1'>
+                        <h3 className='fs-1 font-heading'>
                             CILT International <br />
                             Certificate in Logistics <br />
                             and Transport

@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&family=Inter:wght@400;700&display=swap');
 .banner{
     background-image: url("https://i.ibb.co/PQ7TFKN/banner.png");
 background-position: center;
@@ -7,7 +7,12 @@ background-size: contain;
 height: 620px;
 margin-top: -50px;
 }
-
+.font-link{
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+.font-heading{
+    font-family: 'Inter', sans-serif;
+}
 .enroll-btn{
     font-weight: 700;
     padding: 12px 20px;
@@ -18,6 +23,7 @@ margin-top: -50px;
     border: none;
     margin-right: 30px;
     transition: 0.5s;
+
 }
 .enroll-btn:hover{
     background-color: #1e3a80;

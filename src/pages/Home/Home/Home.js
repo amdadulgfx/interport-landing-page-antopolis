@@ -5,7 +5,7 @@ import Programs from '../Programs/Programs';
 
 const Home = () => {
     return (
-        <div>
+        <div className='font-link'>
             <NavigationBar></NavigationBar>
             <Banner></Banner>
             <Programs></Programs>

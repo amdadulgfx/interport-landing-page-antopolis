@@ -1,8 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&display=swap');
 
-body{
-    font-family: 'IBM Plex Sans', sans-serif;
-}
 .primary-btn-interport{
     color: #224497;
     font-weight: 700;
@@ -19,4 +15,12 @@ body{
     color: white;
     transition: 0.6s;
 
+}
+.reg-btn{
+    background-color: #27AE6033;
+    color: white;
+    text-transform: uppercase;
+    border: 1px solid #27AE60;
+    border-radius: 5px;
+    padding: 8px 14px
 }
