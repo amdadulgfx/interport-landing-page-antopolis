@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&display=swap');
+
+body{
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+.primary-btn-interport{
+    color: #224497;
+    font-weight: 700;
+    padding: 9px 17px;
+    text-transform: uppercase;
+    border: 3px solid #224497 ;
+    border-radius: 10px;
+    background-color: transparent;
+}
+
+.primary-btn-interport:hover {
+    background-color: #224497;
+    border: 3px solid #224497 ;
+    color: white;
+    transition: 0.6s;
+
+}

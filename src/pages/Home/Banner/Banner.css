@@ -1,0 +1,40 @@
+
+.banner{
+    background-image: url("https://i.ibb.co/PQ7TFKN/banner.png");
+background-position: center;
+background-repeat: no-repeat;
+background-size: contain;
+height: 620px;
+margin-top: -50px;
+}
+
+.enroll-btn{
+    font-weight: 700;
+    padding: 12px 20px;
+    text-transform: uppercase;
+    background-color: #224497;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    margin-right: 30px;
+    transition: 0.5s;
+}
+.enroll-btn:hover{
+    background-color: #1e3a80;
+    
+}
+.learn-btn{
+    font-weight: 700;
+    padding: 11px 19px;
+    text-transform: uppercase;
+    background-color: transparent;
+    color: white;
+    border-radius: 10px;
+    border: none;
+
+}
+.learn-btn:hover {
+    border-bottom: 1px solid #224497;
+    border-top: 1px solid #224497;
+    
+}
