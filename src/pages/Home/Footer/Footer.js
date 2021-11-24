@@ -1,5 +1,5 @@
 import React from 'react';
-import { Col, Container, Row } from 'react-bootstrap';
+import { Col, Container, Form, Row } from 'react-bootstrap';
 import './Footer.css';
 import bsaa from '../../../images/BSAA.png'
 import fb from '../../../images/fb.png'
@@ -75,9 +75,32 @@ const Footer = () => {
                             </Row>
                         </Col>
                         <Col>
+                            <div className='w-75 mx-auto'>
+                                <h3 className='font-heading text-white' >Get In Touch</h3>
+                                <Form>
+                                    <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
+
+                                        <Form.Control className='bg-transparent form-border p-3' type="text" placeholder="Your Name" />
+                                        <Form.Control className='bg-transparent form-border p-3 my-3' type="email" placeholder="Your Email" />
+                                        <Form.Control className='bg-transparent form-border p-3' type="text" placeholder="Subject" />
+                                    </Form.Group>
+                                    <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
+
+                                        <Form.Control className='bg-transparent form-border' placeholder='Your Message' as="textarea" rows={4} />
+                                    </Form.Group>
+                                    <div className='text-end pt-4' >
+                                        <button className='send-btn'>Send Message</button>
+                                    </div>
+                                </Form>
+                            </div>
                         </Col>
                     </Row>
                 </Container>
+            </div>
+            <hr />
+            <div className='d-flex justify-content-center align-items-center pt-4'>
+                <p>© Copyright 2020 - 2021</p> <span className='fs-1 mx-3' style={{ width: '8px', height: '8px', backgroundColor: '#BBC9ED', borderRadius: '4px', marginTop: '-15px' }} > </span>
+                <p>All rights reserved by Antopolis</p>
             </div>
         </div>
     );
